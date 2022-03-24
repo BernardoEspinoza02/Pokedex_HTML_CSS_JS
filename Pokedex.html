@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link href="pokedexcss.css" rel="stylesheet" />
+
+</head>
+
+<body> 
+
+    <div class="container" >
+        <div class="titulo">
+             <img src="./pokelaunchx.png" alt="titulo" style="justify-content: centers;">
+        </div>
+        
+
+    <div class="pokedex" style="width: max-content= 200px;">
+
+
+        <form action="" onsubmit="searchPokemon(event)"> 
+           <input type="text" placeholder="Nombre o # Pokemon" id="pokeName" name="pokeName" autocomplete="off"><br> 
+        </form>
+
+        <div data-card class="Datos"></div>
+       
+            <div data-img-container class="img-container">
+                <img data-img class="poke-img" src="./pokelaunchx.png" alt="launchx" id="pokeImg"><br>
+            </div>
+
+            <div data-name ></div>
+            <div data-Id></div>
+            <div data-types class="ptypes">
+                <div></div>
+            </div>
+            <div data-stats class="pstats"></div>
+            <div data-ability class="pabilities">
+                <div data-habilidad></div>
+            </div>
+     
+    </div>
+
+</div>
+</body>
+<footer>
+    <script src="./pokedexjs.js"></script>
+</footer>
+</html>

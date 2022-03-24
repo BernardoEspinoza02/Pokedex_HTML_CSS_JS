@@ -1,0 +1,122 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(255, 255, 255);
+    font-size: 18px;
+
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+    text-align: center;
+
+}
+.container{
+    height: 100%;
+    background: url(./Diseño\ sin\ título.png);
+    background-repeat: no-repeat;
+    background-position:left;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.titulo img{
+    margin: 0;
+    padding: 0%;
+    width: 400px;
+    height: 120px;
+}
+.titulo{
+    text-align: center;
+}
+
+.pokedex{
+    margin: 20px;
+    width: 350px;
+    height:auto;
+    border: 8px solid #011199c4;
+    
+    border-radius: 8px; 
+    background-position:right;
+    background-size: cover;
+    background-color: #f71707;
+    display:inline-block;
+    text-align: center;
+}
+
+
+form{
+    margin: 20px;
+    padding: 10px;
+    width: 270px;
+    justify-content: center;
+    align-content: center;
+}
+
+input{
+    text-align:left;
+    width: 100%;
+    padding: 10px;
+    background: #67fc04ef;
+    color:rgb(0, 0, 0);
+    text-size-adjust: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img-container{
+    border-radius: 4px;
+    border: 8px solid rgb(167, 167, 167);
+    border-right: 20px solid rgb(167, 167, 167);
+    border-left: 20px solid rgb(167, 167, 167);
+    margin: 0px;
+    padding: 0px;
+    width: 210px;
+    height: 160px;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    align-content: space-between;
+    background-color: rgba(0, 0, 0, 0.774);
+}
+
+.poke-img{
+    display: inline-block;
+    text-align: center;
+    margin: 20px auto;
+    width: 120px;
+    border-radius: 10px;
+}
+
+.pstats div{
+    background-color: rgba(99, 199, 0, 0.397);
+    color: rgb(255, 187, 0);
+    padding: 5px;
+    display:flex;
+    justify-content: space-between;
+    align-content: space-between;
+    line-height: 10px;
+    font-size: 15px;
+}
+
+.pabilities{
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.pabilities div{
+    font-size: 12px;
+    align-items: baseline;
+}
+
+.ptypes{
+    
+    background-color: black;
+    background-size: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
